@@ -1,0 +1,136 @@
+#portada1 {
+    background-image: url('../../../assets/images/carousel1.jpg');
+}
+
+#portada2 {
+    background-image: url('../../../assets/images/carousel2.jpg');
+}
+
+#portada3 {
+    background-image: url('../../../assets/images/carousel3.jpg');
+}
+
+.carrousel {
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../../../assets/images/ico_back.png')
+}
+
+.carousel-control-next-icon {
+    background-image: url('../../../assets/images/ico_next.png')
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.textCarrousel {
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'supremaThin';
+    position: relative;
+    top: 15%;
+}
+
+.containerTextCarrousel {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90px;
+}
+
+#section1 {
+    position: relative;
+    background-image: url('../../../assets/images/imageSection1.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+#textSection1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'supremaRegular';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.containerTitleProducts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#titleProducts {
+    font-family: 'supremaSemiBold';
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardMain {
+    font-family: 'supremaRegular';
+    font-size: 20px;
+}
+
+.imageProduct {
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-family: 'supremaRegular';
+}
+
+.card {
+    border: 1.5px solid #0d6ab7;
+}
+
+.footerCard {
+    background-color: #0d6ab7;
+    text-align: center;
+    color: white;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 620px) and (min-width: 5px) {
+    .carrousel {
+        height: 350px;
+    }
+    #textSection1 {
+        font-size: 25px;
+    }
+    .textCarrousel {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+.nameProduct {
+    font-family: 'supremaSemibold';
+    font-size: 30px;
+}
+
+#textDescription {
+    text-align: justify;
+    font-family: 'supremaRegular';
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../../../assets/images/ico_back.png')
+}
+
+.carousel-control-next-icon {
+    background-image: url('../../../assets/images/ico_next.png')
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.carousel-indicators {
+    bottom: -10px;
+}

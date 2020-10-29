@@ -1,0 +1,147 @@
+<div id="carouselControls" class="carousel slide" data-ride="carousel" style="margin-left: -15px; margin-right: -15px;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container" class="carrousel" id="portada1">
+                <!-- <div class="col-sm containerTextCarrousel">
+                    <p class="textCarrousel">Especializados en suministros para la extracción de todo tipo de mineral.
+                    </p>
+                </div> -->
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container" class="carrousel" id="portada2">
+                <!-- <div class="col-sm containerTextCarrousel">
+                    <p class="textCarrousel">Herramientas para construcción y obra civil.</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container" class="carrousel" id="portada3">
+                <!-- <div class="col-sm containerTextCarrousel">
+                    <p class="textCarrousel">Somos distribuidores de herramientas neumáticas de la más alta calidad.
+                    </p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- <div class="row" id="section1">
+    <p id="textSection1">CONTAMOS CON: ASESORIA, SUMINISTRO Y SERVICIO POST VENTA.</p>
+</div> -->
+<br>
+
+<div class="container" style="margin-top: 50px; margin-bottom: 20px;">
+    <div class="row">
+        <div class="col-sm containerTitleProducts">
+            <h3 id="titleProducts">NUESTROS CLIENTES</h3>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="sectionSupliers">
+    <div class="col-sm-1"></div>
+    <div *ngFor="let item of listClients" class="col-sm-2">
+        <div class="card cardMain" style="background-color: white">
+            <div class="card-body text-center productCard">
+                <img class="imageProduct img-responsive" src="{{endpointImages+item}}" width="400">
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="col-sm-1"></div>
+</div>
+<div class="container" style="margin-top: 50px; margin-bottom: 20px;">
+    <div class="row">
+        <div class="col-sm containerTitleProducts">
+            <h3 id="titleProducts">NUESTROS PRODUCTOS DESTACADOS</h3>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(1)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_1.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Martillo Picador Neumático M37B</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(2)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_2.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Lámparas para Minería</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(3)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_3.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Respiradores 3M</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(4)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_4.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Perforadoras Neumáticas</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(5)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_5.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Puntas para Martillos</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(6)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_6.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Martillo Picador Neumático ML33</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card" (click)="openModalCarrousel(7)">
+                <div class="card-body text-center productCard">
+                    <img src="../../../assets/images/guitars/img_guitars_7.png" alt="NF" width="90%">
+                </div>
+                <!-- <div class="card-footer footerCard">
+                    <p>Manguera Flexible de 3/4</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="swiper-pagination"></div>
+</div>

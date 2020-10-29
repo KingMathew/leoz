@@ -1,0 +1,17 @@
+#imageLogo {
+    margin: 0 auto;
+    width: 250px;
+    height: 107px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#messageText {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#buttonAcept {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

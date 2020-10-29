@@ -1,0 +1,92 @@
+<div id="mainContainer" class="container-fluid">
+    <div class="row">
+
+        <img id="imageLogo" src="../assets/images/logo.png" alt="NF" class="img-responsive">
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navBar">
+        <div class="container">
+            <button id="buttonMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <i class="fa fa-bars" style="color: white"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="myNavbar">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="" (click)="goToSection(0)">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="" (click)="goToSection(1)">NOSOTROS</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PRODUCTOS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link" [routerLink]="" (click)="goToSection(2)">MINERÍA</a>
+                            <a class="nav-link" [routerLink]="" (click)="goToSection(3)">CONSTRUCCIÓN</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="" (click)="goToSection(4)">PORTAFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="" (click)="goToSection(5)">CONTÁCTENOS</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</div>
+<div id="mainDiv" class="container-fluid">
+    <router-outlet></router-outlet>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+
+<div class="row text-center container-fluid" id="footer">
+    <div class="col">
+        <div class="row textFooter">
+            <div class="col-sm">
+                <img src="../assets/images/logo.png" class="img-responsive" alt="logo" width="254" height="197" style="margin: 0 auto">
+            </div>
+            <div class="col-sm" style="text-align: center">
+                <br>
+                <p>CONTÁCTENOS</p>
+                <p>Celular: 300 641 36 28</p>
+                <!-- <p>Correo: info@crn-ltda.com</p> -->
+            </div>
+            <div class="col-sm" style="text-align: center">
+                <div class="row" >
+                    <div class="col-sm-4" >
+                        <a target="_blank" href="https://www.facebook.com/leozguitars/">
+                            <img class="img-icon" style="height: 80px;" src="../assets/images/ico_facebook.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                            <a target="_blank" href="https://www.instagram.com/leozguitars/">
+                                <img class="img-icon" style="height: 80px;" src="../assets/images/ico_insta.png">
+                            </a>
+                    </div>
+                    <div class="col-sm-4">
+                            <a target="_blank" href="https://www.youtube.com/leozguitars">
+                                <img class="img-icon" style="height: 80px;" src="../assets/images/ico_youtube.png">
+                            </a>
+                     
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<a target="_blank" href="https://api.whatsapp.com/send?phone=573006413628" class="float">
+    <img class="img-icon ccw-analytics" id="style-9" data-ccw="style-9" style="height: 80px; margin-right: 30px" src="../assets/images/whatsapp.png" alt="WhatsApp chat">
+</a>

@@ -1,0 +1,49 @@
+.imageProduct {
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.imageProduct {
+    width: 200px;
+    position: relative;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.imageProduct:hover {
+    opacity: 1;
+    transform: scale(1.5, 1.5);
+}
+
+.containerSection {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 200px;
+}
+
+#textSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'supremaSemiBold';
+    font-size: 40px;
+    color: white;
+    text-align: center
+}
+
+.nameProduct {
+    font-family: 'supremaRegular';
+    font-size: 20px;
+}
+
+.card {
+    border: 1.5px solid #0d6ab7;
+}
+
+.footerCard {
+    background-color: #0d6ab7;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.nameProduct {
+    font-family: 'supremaSemibold';
+    font-size: 30px;
+}
+
+#textDescription {
+    text-align: justify;
+    font-family: 'supremaRegular';
+    padding-left: 15px;
+    padding-right: 15px;
+}

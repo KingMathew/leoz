@@ -1,0 +1,27 @@
+.containerSection {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 200px;
+}
+
+#textSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'supremaSemiBold';
+    font-size: 40px;
+    color: white;
+    text-align: center
+}
+
+.textContact {
+    font-family: 'supremaRegular';
+    font-size: 20px;
+}
+
+input,
+textarea {
+    border: 1px solid #0d6ab7;
+    border-radius: 4px;
+}

@@ -1,0 +1,60 @@
+/* #portada1 {
+    background-image: url('../../../assets/images/services/services-01.jpg');
+}
+
+#portada2 {
+    background-image: url('../../../assets/images/services/services-02.jpg');
+}
+
+#portada3 {
+    background-image: url('../../../assets/images/services/services-03.jpg');
+} */
+
+.carrousel {
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+.textCarrousel {
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'supremaThin';
+    position: relative;
+    top: 15%;
+}
+
+.containerTextCarrousel {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90px;
+}
+
+.titleAbout {
+    font-family: 'supremaSemiBold';
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.descriptionAbout {
+    text-align: justify;
+    font-family: 'supremaRegular';
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+}

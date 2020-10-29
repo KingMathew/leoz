@@ -1,0 +1,57 @@
+.containerSection {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 200px;
+}
+
+#textSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'supremaSemiBold';
+    font-size: 40px;
+    color: white;
+    text-align: center
+}
+
+#textAboutUS {
+    margin-top: 50px;
+    text-align: justify;
+    font-family: 'supremaRegular';
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.titleAbout {
+    font-family: 'supremaSemiBold';
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.descriptionAbout {
+    text-align: justify;
+    font-family: 'supremaRegular';
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 620px) and (min-width: 5px) {
+    #textAboutUS {
+        margin-top: 20px;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .titleAbout {
+        font-size: 22px;
+    }
+
+    .descriptionAbout {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .containerImagesAbout{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-sm containerSection">
+        <p id="textSection">CONTÁCTENOS</p>
+    </div>
+</div>
+<br>
+<br>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12 col-sm-6">
+
+            <div class="row">
+                <div class="col-12 col-sm-6" style="margin-top: 20px">
+                    <input type="text" class="form-control" placeholder="Nombre" [(ngModel)]="name">
+                </div>
+                <div class="col-12 col-sm-6" style="margin-top: 20px">
+                    <input type="email" class="form-control" placeholder="Email" [(ngModel)]="email">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10" placeholder="Agregar un mensaje..." [(ngModel)]="message"></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-custom" style="width: 100%" (click)="sendEmail()">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6" style="margin-top: 30px">
+            <!-- <div class="row">
+                <div class="col-4">
+                    <i class="fa fa-map-signs" style="color: black; font-size: 70px;"></i>
+                </div>
+                <div class="col-8" style="text-align: left; margin-top: 5px;">
+                    <p class="textContact">Carrera 68 # 1A-55 Bogotá, Colombia</p>
+                </div>
+            </div> -->
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <i class="fa fa-phone" style="color: black; font-size: 70px;"></i>
+                </div>
+                <div class="col-8" style="text-align: left; margin-top: 10px;">
+                    <p class="textContact">Tel: +(57) 300 641 36 28</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- <div class="row">
+                <div class="col-4">
+                    <i class="fa fa-envelope" style="color: black; font-size: 70px;"></i>
+                </div>
+                <div class="col-8" style="text-align: left; margin-top: 10px;">
+                    <p class="textContact">info@crn-ltda.com</p>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</div>
