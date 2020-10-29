@@ -3,11 +3,12 @@
    "version": "0.0.0",
    "scripts": {
       "ng": "ng",
-      "start": "ts-node src/index.ts",
+      "start": "node server.js",
       "build": "ng build",
       "test": "ng test",
       "lint": "ng lint",
-      "e2e": "ng e2e"
+      "e2e": "ng e2e",
+      "postinstall": "ng build --prod"
    },
    "private": true,
    "dependencies": {
@@ -22,6 +23,7 @@
       "@ng-bootstrap/ng-bootstrap": "^5.1.0",
       "bootstrap": "^4.3.1",
       "core-js": "^2.5.4",
+      "express": "^4.17.1",
       "jquery": "^3.4.1",
       "mysql": "^2.14.1",
       "popper.js": "^1.15.0",
